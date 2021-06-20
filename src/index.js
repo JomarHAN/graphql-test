@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import { ApolloProvider, createHttpLink, ApolloClient } from '@apollo/client';
-import { InMemoryCache } from '@apollo/client/cache';
+import { ApolloProvider, createHttpLink, ApolloClient, InMemoryCache } from '@apollo/client';
 
 import { store, persistor } from './redux/store';
 
